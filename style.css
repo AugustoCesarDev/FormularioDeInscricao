@@ -90,11 +90,3 @@ main {
 fieldset{
     border: none;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: ;
-    gap: 10px 15px;
-    align-items: center;
-    
-}
