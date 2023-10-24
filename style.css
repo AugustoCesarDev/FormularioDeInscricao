@@ -95,4 +95,22 @@ fieldset{
     display: flex;
     flex-flow: row wrap;
     gap: 10px 15px;
+    justify-content: space-between;
+}
+
+label {
+    color: var(--extra-color);
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.input-box {
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    background: var(--W-Background, #FFF);
+    width: 270px;
+    height: 32px;
 }
