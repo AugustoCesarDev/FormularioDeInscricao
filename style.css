@@ -90,3 +90,9 @@ main {
 fieldset{
     border: none;
 }
+
+.fields {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px 15px;
+}
