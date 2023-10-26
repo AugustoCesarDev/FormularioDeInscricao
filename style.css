@@ -98,8 +98,7 @@ fieldset{
 }
 
 .input-field {
-    width: 30%;
-
+    width: calc(100% / 3 - 15px);
 }
 
 label {
@@ -117,4 +116,13 @@ label {
     background: var(--W-Background, #FFF);
     width: 270px;
     height: 32px;
+}
+
+.checkbox {
+    margin-top: 25px;
+}
+
+.checkbox-mg {
+    margin-right: 5px;
+
 }
