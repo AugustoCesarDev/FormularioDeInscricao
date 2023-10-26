@@ -95,7 +95,11 @@ fieldset{
     display: flex;
     flex-flow: row wrap;
     gap: 10px 15px;
-    justify-content: space-between;
+}
+
+.input-field {
+    width: 30%;
+
 }
 
 label {
