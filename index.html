@@ -54,10 +54,14 @@
                 <div class="input-field">
                     <label for="id_tel">Telefone</label> <br>
                     <input type="tel" name="tel" id="id_tel" class="input-box">
+                    <div>
+                        <label for="id_sobrenome">Nome do responsável</label> <br>
+                        <input type="text" name="sobrenome" id="id_sobrenome" class="input-box">
+                    </div>
                 </div>
-                <div class="input-field">
-                    <label for="id_sobrenome">Nome do responsável</label> <br>
-                    <input type="text" name="sobrenome" id="id_sobrenome" class="input-box">
+                <div class="input-field checkbox">
+                    <input type="checkbox" name="sobrenome" id="id_sobrenome" class="checkbox-mg">
+                    <label for="id_sobrenome">Nome do responsável</label>
                 </div>
                 <div class="input-field">
                     <label for="id_sexo">Sexo</label> <br>
@@ -70,10 +74,10 @@
                 </div>
             </fieldset>
         </section>
-        <section>
+        <section class="container">
             <h3>Perguntas Importantes</h3>
-            <fieldset class="container">
-                <div>
+            <fieldset class="fields">
+                <div class="input-field">
                     <label for="id_q1">Tem alguma restrição alimentar?</label> <br>
                     <label for="id_q1">
                         <input type="radio" name="question1" id="id_q1"> Sim
@@ -86,7 +90,7 @@
                         <input type="text" name="question1" id="id_q1" class="input-box">
                     </div>
                 </div>
-                <div>
+                <div class="input-field">
                     <label for="id_q2">Tem algum problema respiratório?</label> <br>
                     <label for="id_q2">
                         <input type="radio" name="question2" id="id_q2"> Sim
@@ -99,7 +103,7 @@
                         <input type="text" name="question2" id="id_q2" class="input-box">
                     </div>
                 </div>
-                <div>
+                <div class="input-field">
                     <label for="id_q3">Faz uso de algum medicamento continuo?</label> <br>
                     <label for="id_q3">
                         <input type="radio" name="question3" id="id_q3"> Sim
@@ -112,7 +116,7 @@
                         <input type="text" name="question3" id="id_q3" class="input-box">
                     </div>
                 </div>
-                <div>
+                <div class="input-field">
                     <label for="id_q4">Possui alguma restrição médica?</label> <br>
                     <label for="id_q4">
                         <input type="radio" name="question4" id="id_q4"> Sim
@@ -125,7 +129,7 @@
                         <input type="text" name="question4" id="id_q4" class="input-box">
                     </div>
                 </div>
-                <div>
+                <div class="input-field">
                     <p>Guardião do Acampante</p>
                     <p>(Para casos de acidente ou emergência)</p>
                     <div>
@@ -154,7 +158,7 @@
                         <input type="radio" name="questionG" id="id_qG"> Amigo
                     </label>
                 </div>
-                <div>
+                <div class="input-field">
                     <label for="id_q5">Deseja prestar serviço voluntário na organização do Acampamento?</label> <br>
                     <label for="id_q5">
                         <input type="radio" name="question5" id="id_q5"> Sim
