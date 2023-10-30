@@ -139,3 +139,7 @@ label {
     position: relative;
     bottom: 2px;
 }
+
+.grid {
+    display: grid;
+}
