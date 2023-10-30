@@ -53,6 +53,15 @@ h3 {
     margin: 20px;
 }
 
+h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    margin-top: 16px;
+}
+
+
+
 header p {
     font-family: 'Shadows Into Light', cursive;
     font-size: 1.5em;
@@ -79,7 +88,7 @@ main {
 
 }
 
-.cabecalhoForm p {
+span {
     color: var(--extra-color);
     font-size: 12px;
     font-style: normal;
@@ -124,4 +133,9 @@ label {
 
 .checkbox-mg {
     margin-right: 3px;
+}
+
+.line {
+    position: relative;
+    bottom: 2px;
 }
