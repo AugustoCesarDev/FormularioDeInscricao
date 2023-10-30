@@ -21,12 +21,12 @@
             <div>
                 <h1>Inscrição para o Acampamento 2024</h1>
                 <h2>Comunhão, a vocação da igreja de Cristo</h2>
-                <p>Preencha o formulário a seguir com todas as informações solicitadas.</p>
+                <span>Preencha o formulário a seguir com todas as informações solicitadas.</span>
             </div>
         </section>
         <section class="container">
             <h3>Dados Pessoais</h3>
-            <fieldset class="fields" >
+            <fieldset class="fields">
                 <div class="input-field">
                     <label for="id_nome">Nome do acampante</label> <br>
                     <input type="text" name="nome" id="id_nome" class="input-box">
@@ -54,23 +54,21 @@
                 <div class="input-field">
                     <label for="id_tel">Telefone</label> <br>
                     <input type="tel" name="tel" id="id_tel" class="input-box">
+                    <div class="checkbox">
+                        <input type="checkbox" name="sobrenome" id="tel-r" class="checkbox-mg">
+                        <label for="tel-r" class="line">Telefone para recados?</label>
+                    </div>
                     <div>
                         <label for="id_sobrenome">Nome do responsável</label> <br>
                         <input type="text" name="sobrenome" id="id_sobrenome" class="input-box">
                     </div>
                 </div>
-                <div class="input-field checkbox">
-                    <input type="checkbox" name="sobrenome" id="tel-r" class="checkbox-mg">
-                    <label for="tel-r">Telefone para recados?</label>
-                </div>
                 <div class="input-field">
                     <label for="id_sexo">Sexo</label> <br>
-                    <label for="id_sexo">
-                        <input type="radio" name="sexo" id="id_sexo"> Masculino
-                    </label>
-                    <label for="id_sexo">
-                        <input type="radio" name="sexo" id="id_sexo"> Feminino
-                    </label>
+                    <input type="radio" name="sexo" id="id_sexoM">
+                    <label for="id_sexoM" class="line">Masculino</label>
+                    <input type="radio" name="sexo" id="id_sexoF">
+                    <label for="id_sexoF" class="line">Feminino</label>
                 </div>
             </fieldset>
         </section>
@@ -129,14 +127,16 @@
                         <input type="text" name="question4" id="id_q4" class="input-box">
                     </div>
                 </div>
-                <div class="input-field">
-                    <p>Guardião do Acampante</p>
-                    <p>(Para casos de acidente ou emergência)</p>
-                    <div>
+        </section>    
+        <section class="container">
+                <h4>Guardião do Acampante</h4>
+                <span>(Para casos de acidente ou emergência)</span>
+            <fieldset class="fields">
+                    <div class="input-field">
                         <label for="id_nomeG">Nome do Guardião</label> <br>
                         <input type="text" name="nome" id="id_nomeG" class="input-box">
                     </div>
-                    <div>
+                    <div class="input-field">
                         <label for="id_sobrenomeG">Sobrenome do Guardião</label> <br>
                         <input type="text" name="sobrenomeG" id="id_sobrenomeG" class="input-box">
                     </div>
@@ -144,20 +144,22 @@
                         <label for="id_telG">Telefone do Guadião</label> <br>
                         <input type="tel" name="tel" id="id_telG" class="input-box">
                     </div>
-                    <label for="id_qG">Qual o grau de proximidade?</label> <br>
-                    <label for="id_qG">
-                        <input type="radio" name="questionG" id="id_qG"> Pais
-                    </label>
-                    <label for="id_qG">
-                        <input type="radio" name="questionG" id="id_qG"> Irmãos
-                    </label>
-                    <label for="id_qG">
-                        <input type="radio" name="questionG" id="id_qG"> Familiares (Tios, avós e etc)
-                    </label>
-                    <label for="id_qG">
-                        <input type="radio" name="questionG" id="id_qG"> Amigo
-                    </label>
-                </div>
+                    <div>
+                        <label for="id_qG">Qual o grau de proximidade?</label> <br>
+                            <input type="radio" name="questionG" id="id_qG">
+                            <label for="id_qG">Pais</label>
+                            <input type="radio" name="questionG" id="id_qG">
+                            <label for="id_qG">Irmãos</label>
+                            <input type="radio" name="questionG" id="id_qG">
+                            <label for="id_qG">Familiares (Tios, avós e etc)</label>
+                        <label for="id_qG">
+                            <input type="radio" name="questionG" id="id_qG"> Amigo
+                        </label>
+                    </div>
+            </fieldset>
+        </section>        
+        <section  class="container">
+            <fieldset class="fields">
                 <div class="input-field">
                     <label for="id_q5">Deseja prestar serviço voluntário na organização do Acampamento?</label> <br>
                     <label for="id_q5">
@@ -194,6 +196,7 @@
                     </div>
                 </div>
             </fieldset>
+        </section>
         </section>
         <section>
             <h2>Informações sobre pagamento</h2>
