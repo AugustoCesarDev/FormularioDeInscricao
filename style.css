@@ -60,7 +60,11 @@ h4 {
     margin-top: 16px;
 }
 
-
+a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}
 
 header p {
     font-family: 'Shadows Into Light', cursive;
@@ -110,6 +114,16 @@ fieldset{
     width: calc(100% / 3 - 15px);
 }
 
+input {
+    color: #666;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    padding-left: 12px;
+}
+
 label {
     color: var(--extra-color);
     font-family: Noto Sans;
@@ -157,4 +171,11 @@ footer {
     background-color: var(--main-color);
     color: var(--second-color);
     height: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    font-weight: 400;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
 }
