@@ -143,3 +143,18 @@ label {
 .grid {
     display: grid;
 }
+
+main p{
+    color: var(--extra-color);
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+footer {
+    background-color: var(--main-color);
+    color: var(--second-color);
+    height: 80px;
+}
